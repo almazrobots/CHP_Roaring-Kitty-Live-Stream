@@ -87,9 +87,6 @@ const Main: FunctionComponent = () => {
         chevronRight12="/chevronright.svg"
         navButtonIcon
         collapseButton={false}
-        button={false}
-        buttonIcon={false}
-        buttonIcon={false}
         borderBottom
         buttonGroup
         navDivider={false}

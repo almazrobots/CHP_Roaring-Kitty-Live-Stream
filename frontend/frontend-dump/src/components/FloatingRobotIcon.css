@@ -1,0 +1,22 @@
+.floating-robot-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    width: 128px; /* Устанавливаем ширину контейнера */
+    height: 128px; /* Устанавливаем высоту контейнера */
+    border-radius: 50%; /* Делаем контейнер круглым */
+    overflow: hidden; /* Скрываем все, что выходит за границы контейнера */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Добавляем тень для красоты */
+}
+
+.floating-robot {
+    width: 100%; /* Делаем изображение по размеру контейнера */
+    height: 100%; /* Делаем изображение по размеру контейнера */
+    object-fit: cover; /* Обрезаем изображение, чтобы оно не выходило за границы */
+    transition: transform 0.3s;
+}
+
+.floating-robot:hover {
+    transform: scale(1.1);
+}

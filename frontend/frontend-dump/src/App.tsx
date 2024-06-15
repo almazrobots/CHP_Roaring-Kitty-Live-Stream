@@ -6,6 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import Main from "./pages/Main";
+import FloatingRobotIcon from './components/FloatingRobotIcon';
+
+// import MyResume from "./pages/MyResume";
 
 function App() {
   const action = useNavigationType();
@@ -44,9 +47,13 @@ function App() {
   }, [pathname]);
 
   return (
+    <>
     <Routes>
       <Route path="/" element={<Main />} />
+      {/*<Route path="/resume" element={<MyResume />} />*/}
     </Routes>
+  <FloatingRobotIcon />
+    </>
   );
 }
 export default App;

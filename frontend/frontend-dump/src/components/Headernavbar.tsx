@@ -670,30 +670,7 @@ const Headernavbar: FunctionComponent<HeadernavbarType> = ({
 
             (
             <div className={styles.buttonGroup}>
-              {/*<TypeGhostColorGrayState*/}
-              {/*  avatar="/avatar9.svg"*/}
-              {/*  home="/instagram.svg"*/}
-              {/*  avatar1="/avatar8@2x.png"*/}
-              {/*  home1="/home12.svg"*/}
-              {/*  chevronRight="/home12.svg"*/}
-              {/*  badge={false}*/}
-              {/*  buttonIconSmallBoxShadow="unset"*/}
-              {/*  buttonIconSmallBackgroundColor="unset"*/}
-              {/*  buttonIconSmallBorder="unset"*/}
-              {/*  placeholderColor="#6b7280"*/}
-              {/*/>*/}
-              {/*<TypeGhostColorGrayState*/}
-              {/*  avatar="/avatar9.svg"*/}
-              {/*  home="/shoppingbasket.svg"*/}
-              {/*  avatar1="/avatar8@2x.png"*/}
-              {/*  home1="/home12.svg"*/}
-              {/*  chevronRight="/home12.svg"*/}
-              {/*  badge*/}
-              {/*  buttonIconSmallBoxShadow="unset"*/}
-              {/*  buttonIconSmallBackgroundColor="unset"*/}
-              {/*  buttonIconSmallBorder="unset"*/}
-              {/*  placeholderColor="#6b7280"*/}
-              {/*/>*/}
+              <a href={"http://176.123.166.154:8000/docs"}>
               <StyleWhiteColorDarkState
                 avatar="/avatar10.svg"
                 home="/user.svg"
@@ -713,7 +690,8 @@ const Headernavbar: FunctionComponent<HeadernavbarType> = ({
                 placeholderColor="#1f2937"
                 placeholderWidth="unset"
                 dividerBackgroundColor1="#9ca3af"
-              />
+              /></a>
+              <a href={"http://176.123.166.154:8000/docs"}>
               <StyleWhiteColorDarkState
                 avatar="/avatar10.svg"
                 home="/avatar8@2x.png"
@@ -733,19 +711,8 @@ const Headernavbar: FunctionComponent<HeadernavbarType> = ({
                 placeholderColor="#fff"
                 placeholderWidth="unset"
                 dividerBackgroundColor1="#fff"
-              />
-              {/*<TypeGhostColorGrayState*/}
-              {/*  avatar="/avatar9.svg"*/}
-              {/*  home="/alignjustify.svg"*/}
-              {/*  avatar1="/avatar8@2x.png"*/}
-              {/*  home1="/home12.svg"*/}
-              {/*  chevronRight="/home12.svg"*/}
-              {/*  badge={false}*/}
-              {/*  buttonIconSmallBoxShadow="0px 1px 2px rgba(0, 0, 0, 0.05)"*/}
-              {/*  buttonIconSmallBackgroundColor="#fff"*/}
-              {/*  buttonIconSmallBorder="1px solid #e5e7eb"*/}
-              {/*  placeholderColor="#1f2937"*/}
-              {/*/>*/}
+              /></a>
+
             </div>
           )}
         </div>
