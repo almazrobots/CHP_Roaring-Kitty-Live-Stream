@@ -1,0 +1,21 @@
+.body,
+.listNews {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.body {
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  z-index: 0;
+  text-align: left;
+  font-size: 18px;
+  color: #6b7280;
+  font-family: Inter;
+}

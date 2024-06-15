@@ -1,0 +1,48 @@
+.hhru,
+.listLinks {
+  align-self: stretch;
+}
+.listLinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hhru {
+  line-height: 20px;
+  font-weight: 600;
+}
+.hhru,
+.robotix {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.footer,
+.social {
+  display: flex;
+  gap: 16px;
+}
+.social {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+  text-align: left;
+  font-size: 14px;
+  color: #6b7280;
+  font-family: Inter;
+}

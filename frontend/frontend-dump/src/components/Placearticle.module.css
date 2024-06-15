@@ -1,0 +1,82 @@
+.b,
+.div {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.div {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #6b7280;
+}
+.head,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+.head {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 16px;
+}
+.avatar13Icon {
+  width: 40px;
+  position: relative;
+  border-radius: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.b1 {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.infAutor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #6b7280;
+}
+.body,
+.listTags,
+.placearticle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listTags {
+  flex-direction: row;
+  gap: 8px;
+}
+.body,
+.placearticle {
+  flex-direction: column;
+  align-self: stretch;
+}
+.body {
+  background-color: #fff;
+  padding: 20px;
+  gap: 16px;
+}
+.placearticle {
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.04), 0 4px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: 18px;
+  color: #1d4ed8;
+  font-family: Inter;
+}

@@ -1,0 +1,134 @@
+.b,
+.homeIcon {
+  position: relative;
+}
+.b {
+  letter-spacing: -0.03em;
+}
+.homeIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.placeholder {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.badge {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inline {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.content,
+.icon1,
+.inline {
+  flex-direction: row;
+  align-items: center;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  justify-content: flex-start;
+  padding: 12px;
+  gap: 8px;
+}
+.borderBottom {
+  align-self: stretch;
+  position: relative;
+  background-color: #e5e7eb;
+  height: 2px;
+}
+.navLink {
+  width: 206px;
+  border-left: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card,
+.navstabs {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navstabs {
+  border-bottom: 2px solid #e5e7eb;
+  flex-direction: row;
+  z-index: 1;
+}
+.card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  flex-direction: column;
+  font-size: 14px;
+  color: #1f2937;
+}
+.news {
+  position: absolute;
+  top: 88px;
+  left: 40px;
+  width: 896px;
+  gap: 32px;
+}
+.card1,
+.news,
+.vacancy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  width: 432px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.vacancy {
+  position: absolute;
+  top: 88px;
+  left: 968px;
+  gap: 32px;
+}
+.main1440 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 2060px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 26px;
+  color: #1d4ed8;
+  font-family: Inter;
+}

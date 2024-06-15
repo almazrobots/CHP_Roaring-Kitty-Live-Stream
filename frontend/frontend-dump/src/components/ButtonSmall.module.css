@@ -1,0 +1,40 @@
+.avatarIcon,
+.homeIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  width: 18px;
+  border-radius: 999px;
+  height: 18px;
+}
+.homeIcon {
+  width: 14px;
+  height: 14px;
+}
+.divider {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  background-color: #e5e7eb;
+}
+.placeholder {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.buttonSmall {
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  gap: 8px;
+  text-align: center;
+  font-size: 15px;
+  color: #1f2937;
+  font-family: Inter;
+}
