@@ -1,0 +1,61 @@
+.homeIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.placeholder {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.inline {
+  justify-content: flex-start;
+  gap: 8px;
+}
+.content,
+.icon1,
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.content {
+  justify-content: flex-start;
+  padding: 8px 12px;
+  gap: 8px;
+}
+.borderBottom {
+  align-self: stretch;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 2px;
+}
+.navLightLink {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Inter;
+}

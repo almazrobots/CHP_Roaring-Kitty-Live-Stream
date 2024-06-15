@@ -1,0 +1,68 @@
+.avatarIcon,
+.homeIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  width: 14px;
+  border-radius: 999px;
+  height: 14px;
+  object-fit: cover;
+}
+.homeIcon {
+  width: 10px;
+  height: 10px;
+}
+.status {
+  width: 6px;
+  position: relative;
+  border-radius: 999px;
+  background-color: #6b7280;
+  height: 6px;
+}
+.placeholder1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  font-weight: 500;
+}
+.placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2.5px;
+  gap: 7px;
+}
+.xIcon {
+  width: 8px;
+  position: relative;
+  height: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.badgeAndTagSmall,
+.closeIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.closeIcon {
+  width: 14px;
+  border-radius: 999px;
+  background-color: #d1d5db;
+  height: 14px;
+  justify-content: center;
+}
+.badgeAndTagSmall {
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  justify-content: flex-start;
+  padding: 1px 3px;
+  gap: 1px;
+  text-align: left;
+  font-size: 10px;
+  color: #6b7280;
+  font-family: Inter;
+}

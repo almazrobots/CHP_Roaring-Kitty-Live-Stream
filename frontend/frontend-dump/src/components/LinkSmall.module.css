@@ -1,0 +1,37 @@
+.chevronLeftIcon {
+  width: 14px;
+  position: relative;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkSm {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 600;
+}
+.borderBottom {
+  align-self: stretch;
+  position: relative;
+  background-color: #374151;
+  height: 2px;
+}
+.linkSmall,
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.linkSmall {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #374151;
+  font-family: Inter;
+}

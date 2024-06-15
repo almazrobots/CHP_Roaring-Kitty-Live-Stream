@@ -1,0 +1,201 @@
+.homeIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.placeholder {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.inline {
+  justify-content: center;
+  gap: 8px;
+}
+.content,
+.icon1,
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon1 {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.content {
+  justify-content: flex-start;
+  padding: 12px;
+  gap: 8px;
+}
+.borderBottom {
+  align-self: stretch;
+  position: relative;
+  background-color: #e5e7eb;
+  height: 2px;
+}
+.navLink {
+  width: 300px;
+  border-left: 1px solid #e5e7eb;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verticalDivider {
+  width: 510px;
+  position: relative;
+  background-color: #e5e7eb;
+  height: 1px;
+  display: none;
+}
+.iconXs,
+.staticIcon {
+  display: flex;
+  flex-direction: row;
+}
+.iconXs {
+  width: 26px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  box-sizing: border-box;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+}
+.staticIcon {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.separator {
+  width: 6px;
+  border-radius: 999px;
+  background-color: #9ca3af;
+  height: 6px;
+}
+.bellIcon,
+.div,
+.separator {
+  position: relative;
+  display: none;
+}
+.div {
+  width: 7px;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-weight: 600;
+}
+.bellIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.placeholder1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1f2937;
+}
+.badge,
+.content1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.badge {
+  display: none;
+  align-items: flex-start;
+}
+.content1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.horizontalDivider {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  background-color: #e5e7eb;
+  display: none;
+}
+.inline1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.inline1,
+.list,
+.lists {
+  align-self: stretch;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lists {
+  justify-content: flex-start;
+}
+.checkedList,
+.lists,
+.types {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.checkedList {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.types {
+  width: 300px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.listTypes,
+.stateoff,
+.types {
+  justify-content: flex-start;
+}
+.listTypes {
+  border-radius: 0 0 12px 12px;
+  background-color: #fff;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 16px;
+  color: #9ca3af;
+}
+.stateoff {
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+  font-size: 14px;
+  color: #1f2937;
+  font-family: Inter;
+  flex: 1;
+}

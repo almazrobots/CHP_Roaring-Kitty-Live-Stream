@@ -1,0 +1,34 @@
+.placeholder {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.avatarIcon,
+.homeIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  width: 24px;
+  border-radius: 999px;
+  height: 24px;
+}
+.homeIcon {
+  width: 16px;
+  height: 16px;
+}
+.buttonIconSmall {
+  width: 38px;
+  border-radius: 8px;
+  height: 38px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  color: #1f2937;
+  font-family: Inter;
+}

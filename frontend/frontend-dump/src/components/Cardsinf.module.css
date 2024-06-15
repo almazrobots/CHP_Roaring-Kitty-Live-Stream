@@ -1,0 +1,65 @@
+.middleUxui,
+.projectSerafim {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.projectSerafim {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #6b7280;
+}
+.head,
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title {
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+.head {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 16px;
+}
+.b {
+  position: relative;
+  letter-spacing: 0.01em;
+  color: #6b7280;
+  white-space: pre-wrap;
+}
+.body,
+.cardsinf,
+.listTags {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listTags {
+  flex-direction: row;
+  gap: 8px;
+}
+.body,
+.cardsinf {
+  align-self: stretch;
+  flex-direction: column;
+}
+.body {
+  background-color: #fff;
+  padding: 20px;
+  gap: 16px;
+}
+.cardsinf {
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.04), 0 4px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  text-align: left;
+  font-size: 18px;
+  color: #1d4ed8;
+  font-family: Inter;
+}

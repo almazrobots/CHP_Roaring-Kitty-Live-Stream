@@ -1,0 +1,96 @@
+.chevronLeftIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div,
+.previous {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.previous {
+  color: #6b7280;
+}
+.link {
+  border-radius: 8px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 12px;
+  box-sizing: border-box;
+  gap: 8px;
+  color: #4b5563;
+}
+.divider {
+  align-self: stretch;
+  width: 1px;
+  position: relative;
+  background-color: #e5e7eb;
+}
+.link1 {
+  width: 38px;
+  border-radius: 8px;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div4 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  font-weight: 500;
+}
+.inline,
+.link4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.link4 {
+  width: 38px;
+  border-radius: 8px;
+  height: 38px;
+  align-items: center;
+  font-size: 12px;
+}
+.inline {
+  align-items: flex-start;
+}
+.div6 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+  font-weight: 500;
+  color: #4b5563;
+}
+.link6,
+.pagination {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.link6 {
+  height: 38px;
+  align-items: center;
+  padding: 0 12px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+.pagination {
+  max-width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 16px;
+  color: #6b7280;
+  font-family: Inter;
+}
