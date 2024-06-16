@@ -7,7 +7,7 @@
 
 
 ## Backend
-1. api_fast_swag - 
+1. api_fast_swag - бэкенд
 2. fastApi + OpenAPI с авторизацией и микросервисной архитектурой
 3. webapp-conversation - AI module - ассистент HR
 
@@ -19,6 +19,10 @@
 3. template_html - пример страницы приземления сервиса
 
 Доступен: http://176.123.166.154:3000/
+
+## Fullstack | Prototype
+<a href='https://lct2421.frappehr.com/app/hr'>LCT2421 FrappeHR</a>
+
 
 ## Схемы
 
