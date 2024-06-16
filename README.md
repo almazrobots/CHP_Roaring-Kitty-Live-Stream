@@ -36,3 +36,8 @@
 пароль: T47ARf5oBQ2
 ```
 ![image](https://camo.githubusercontent.com/60700bd5ee05ebcc1ce25f2da927659271eb20d5258eec2c12ec1dedd6194ca1/68747470733a2f2f6c6374323432312e66726170706568722e636f6d2f6173736574732f6672617070652f696d616765732f776f726b666c6f772d6275696c6465722e676966)
+
+## Платформа для создания микросервисов AI-помощников
+<a href='https://dify.ai/'>Платформа для создания микросервисов AI-помощников</a><br/>
+![image](https://github.com/almazrobots/CHP_Roaring-Kitty-Live-Stream/assets/16959353/b79943c0-e0d0-438e-9163-6874491fcd90)
+
