@@ -1,5 +1,11 @@
 # CHP_Roaring-Kitty-Live-Stream
 
+## Документация
+- Техническая спека: https://docs.google.com/document/d/1mnMkRws0dFS5KSmPPbDuwFTjy65xhCMsUxIpC1fHlEw/edit?usp=sharing
+- Use Case Diagram: https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+- 
+
+
 ## Backend
 1. api_fast_swag - 
 2. fastApi + OpenAPI с авторизацией и микросервисной архитектурой
